@@ -10,33 +10,33 @@
 // Категории "Продуктов"
 
 abstract class AbstractDog {
-  type: string
-  color: string
+  abstract type: string
+  abstract color: string
 }
 
 abstract class AbstractCat {
-  type: string
-  color: string
+  abstract type: string
+  abstract color: string
 }
 
 class WhiteDog extends AbstractDog {
-  type: 'Dog'
-  color: 'White'
+  type = "Dog"
+  color = "White"
 }
 
 class WhiteCat extends AbstractCat {
-  type: 'Cat'
-  color: 'White'
+  type = "Cat"
+  color = "White"
 }
 
 class BlackDog extends AbstractDog {
-  type: 'Dog'
-  color: 'Black'
+  type: 'Dog' = "Dog"
+  color: 'Black' = "Black"
 }
 
 class BlackCat extends AbstractCat {
-  type: 'Cat'
-  color: 'Black'
+  type: 'Cat' = "Cat"
+  color: 'Black' = "Black"
 }
 
 // Фабрики
@@ -60,4 +60,7 @@ const AnimalsFactory = new WhiteAnimalsFactory()
 
 const ourCat = AnimalsFactory.CreateACat()
 const ourDog = AnimalsFactory.CreateADog()
+
+console.log(ourCat.color)
+console.log(ourDog.color)
 

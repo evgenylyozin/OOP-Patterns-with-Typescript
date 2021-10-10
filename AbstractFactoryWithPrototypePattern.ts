@@ -1,0 +1,3 @@
+/*
+Concrete factories are implemented with prototype pattern
+*/

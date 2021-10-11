@@ -64,3 +64,4 @@ const ourDog = AnimalsFactory.CreateADog()
 console.log(ourCat.color)
 console.log(ourDog.color)
 
+export default null

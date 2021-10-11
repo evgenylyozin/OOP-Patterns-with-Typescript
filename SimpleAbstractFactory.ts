@@ -1,10 +1,8 @@
 /*
-  Simple abstract factory pattern:
-  Concrete factories are implemented with factory methods
+  Simple abstract factory pattern
 */
 /*
   Простая абстрактная фабрика
-  Конкретные фабрики используют фабричные методы
 */
 
 // Категории "Продуктов"

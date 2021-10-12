@@ -7,32 +7,27 @@
 */
 
 // Категории "Продуктов"
-abstract class AbstractDog {
+abstract class AbstractAnimal {
   abstract type: string
   abstract color: string
 }
 
-abstract class AbstractCat {
-  abstract type: string
-  abstract color: string
-}
-
-class WhiteDog extends AbstractDog {
+class WhiteDog extends AbstractAnimal {
   type = 'Dog'
   color = 'White'
 }
 
-class WhiteCat extends AbstractCat {
+class WhiteCat extends AbstractAnimal {
   type = 'Cat'
   color = 'White'
 }
 
-class BlackDog extends AbstractDog {
+class BlackDog extends AbstractAnimal {
   type = 'Dog'
   color = 'Black'
 }
 
-class BlackCat extends AbstractCat {
+class BlackCat extends AbstractAnimal {
   type = 'Cat'
   color = 'Black'
 }

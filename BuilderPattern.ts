@@ -79,3 +79,4 @@ const TheOtherStringParser = new StringParser(TheOtherStringBuilder)
 TheOtherStringParser.parse('123ABC*&^abc')
 console.log(TheOtherStringBuilder.getBuiltString()) // 111213abc*&^ABC
 
+export default null
